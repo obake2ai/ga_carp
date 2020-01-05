@@ -36,7 +36,7 @@ IMAGE_LABEL = None
 
 UROKO_NUM_Y = 10
 UROKO_NUM_X = 10
-NUMBER_OF_UROKOS = 20
+NUMBER_OF_UROKOS = 25
 
 
 class Shape:
@@ -174,12 +174,10 @@ class Uroko(Shape):
     def init_points(self):
         # TODO: penalty for large circles
         # point for circle
-        a = randrange(1, int(POLY_DIAMETER / 2))
-        b = randrange(1, int(POLY_DIAMETER / 2))
-        # a = int(IMAGE_WIDTH / UROKO_NUM_X)
-        # b = int(IMAGE_HEIGHT / UROKO_NUM_Y)
-        x = np.random.randint(UROKO_NUM_X) * int(IMAGE_WIDTH / UROKO_NUM_X)
-        y = np.random.randint(UROKO_NUM_Y) * int(IMAGE_HEIGHT / UROKO_NUM_Y)
+        a = int(IMAGE_WIDTH / UROKO_NUM_X)
+        b = int(IMAGE_HEIGHT / UROKO_NUM_Y)
+        x = np.random.randint(UROKO_NUM_X) * a
+        y = np.random.randint(UROKO_NUM_Y) * b
         return [(x - a, y - b), (x + a, y + b)]
 
     def draw(self, draw):
