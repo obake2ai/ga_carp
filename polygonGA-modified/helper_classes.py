@@ -289,6 +289,19 @@ class Urokotype(Genotype):
             bisect.insort(self.shapes, new_shape)
             #self.shapes.append(new_shape)
 
+    def mutate(self):
+        # for polygon in self.shapes:
+        #    if random() < PROBABILITY_MUTATION:
+        #        polygon.mutate()
+        idx = randrange(0, NUMBER_OF_UROKOS)
+        shape = self.shapes[idx]
+        self.shapes.__delitem__(idx)
+        shape.mutate()
+        bisect.insort(self.shapes, shape)
+        #self.shapes[randrange(0, NUMBER_OF_POLYGONS)].mutate()
+        self.fitness = float('nan')  # Resetting fitness since the genotype has been mutated.
+        self.image = None
+
 class Population:
     def __init__(self):
         self.genotypes = []
@@ -335,13 +348,15 @@ class Population:
             self.genotypes.append(child_2)
 
     def generate_crossover_children(self, parent_1, parent_2):  # Single Point Crossover
-        crossover_point = randrange(1, NUMBER_OF_POLYGONS - 1)
+        crossover_point = randrange(1, NUMBER_OF_UROKOS - 1)
+        # crossover_point = randrange(1, NUMBER_OF_POLYGONS - 1)
         child_1, child_2 = Genotype(), Genotype()
         f = lambda par, child, i: child.shapes.append(deepcopy(par.shapes[i]))
         for i in range(crossover_point):
             f(parent_1, child_1, i)
             f(parent_2, child_2, i)
-        for i in range(crossover_point, NUMBER_OF_POLYGONS):
+        for i in range(crossover_point, NUMBER_OF_UROKOS):
+        # for i in range(crossover_point, NUMBER_OF_POLYGONS):
             f(parent_1, child_2, i)
             f(parent_2, child_1, i)
         child_1.mutate()
