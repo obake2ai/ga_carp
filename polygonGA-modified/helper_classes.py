@@ -419,7 +419,7 @@ def generate_color(mode, transparency):
 
 def generate_uroko_color():
     black = [0, 0, 0]
-    white = [255, 255, 255]
+    white = [230, 230, 230]
     hiiro = [158, 28, 28]
     color_list = [black, white, hiiro]
     return color_list[np.random.randint(len(color_list))]
