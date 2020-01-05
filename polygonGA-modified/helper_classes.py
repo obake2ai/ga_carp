@@ -34,6 +34,10 @@ MAX_DELTA = 0
 CLASSIFIER = None
 IMAGE_LABEL = None
 
+UROKO_NUM_Y = 10
+UROKO_NUM_X = 10
+NUMBER_OF_UROKOS = 20
+
 
 class Shape:
     def __init__(self):
@@ -104,7 +108,7 @@ class Circle(Shape):
 
     def generate(self, vertices=True, color=True):
         if color:
-            self.color = generate_carp_color(self.mode, self.transparency)
+            self.color = generate_uroko_color(self.mode, self.transparency)
         if vertices:
             """
             self.vertices = []  # To handle mutation.
@@ -136,7 +140,7 @@ class Polygon(Shape):
 
     def generate(self, vertices=True, color=True):
         if color:
-            self.color = generate_carp_color(self.mode, self.transparency)
+            self.color = generate_uroko_color(self.mode, self.transparency)
         if vertices:
             self.vertices = []  # To handle mutation.
             curr_point = generate_point(IMAGE_WIDTH - POLY_DIAMETER, IMAGE_HEIGHT - POLY_DIAMETER)
@@ -147,6 +151,37 @@ class Polygon(Shape):
 
     def draw(self, draw):
         draw.polygon(make_tuple(self.vertices), fill=tuple(self.color), outline=tuple(self.color))
+
+class Uroko(Shape):
+    def __init__(self):
+        super().__init__()
+
+    def generate(self, vertices=True, color=True):
+        if color:
+            self.color = generate_uroko_color(self.mode, self.transparency)
+        if vertices:
+            """
+            self.vertices = []  # To handle mutation.
+            curr_point = generate_point(IMAGE_WIDTH, IMAGE_HEIGHT)
+            self.vertices.append(curr_point)
+            d = randrange(0, POLY_DIAMETER + 1)
+            d = [d, d]
+            self.vertices.append([sum(x) for x in zip(curr_point, d)])
+            """
+            self.vertices = self.init_points()
+        self.coord = np.mean(np.asarray(self.vertices), axis=0)
+
+    def init_points(self):
+        # TODO: penalty for large circles
+        # point for circle
+        a = int(IMAGE_WIDTH / UROKO_NUM_X)
+        b = int(IMAGE_HEIGHT / UROKO_NUM_Y)
+        y, x = generate_uroko_point() + 0.5
+        return [(x - a, y - b), (x + a, y + b)]
+
+    def draw(self, draw):
+        draw.ellipse(make_tuple(self.vertices), fill=tuple(self.color), outline=tuple(self.color))
+
 
 
 class Genotype:
@@ -243,13 +278,24 @@ class Pixeltype(Genotype):
         self.fitness = float('nan')  # Resetting fitness since the genotype has been mutated.
         self.image = None
 
+class Urokotype(Genotype):
+    def __init__(self):
+        super().__init__()
+
+    def generate(self):
+        for i in range(NUMBER_OF_UROKOS):
+            new_shape = Uroko()
+            new_shape.generate()
+            bisect.insort(self.shapes, new_shape)
+            #self.shapes.append(new_shape)
 
 class Population:
     def __init__(self):
         self.genotypes = []
 
     def generate_initial(self):
-        ancestor = Genotype()
+        # ancestor = Genotype()
+        ancestor = Urokotype()
         ancestor.generate()
         for i in range(POPULATION_SIZE):
             new_member = deepcopy(ancestor)
@@ -353,12 +399,15 @@ def generate_color(mode, transparency):
             color = color + [255]
         return color
 
-def generate_carp_color(mode, transparency):
+def generate_uroko_color():
     black = [0, 0, 0]
     white = [255, 255, 255]
     hiiro = [158, 28, 28]
     color_list = [black, white, hiiro]
     return color_list[np.random.randint(len(color_list))]
+
+def generate_uroko_point():
+    return np.asarray([np.random.randint(UROKO_NUM_Y), np.random.randint(len(UROKO_NUM_X))])
 
 
 def generate_point(x_max, y_max):  # Include offset.
