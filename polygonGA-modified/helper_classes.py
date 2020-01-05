@@ -356,7 +356,7 @@ def generate_color(mode, transparency):
 def generate_carp_color(mode, transparency):
     black = [0, 0, 0]
     white = [255, 255, 255]
-    hiiro = [28, 28, 158]
+    hiiro = [158, 28, 28]
     color_list = [black, white, hiiro]
     return color_list[np.random.randint(len(color_list))]
 
