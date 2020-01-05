@@ -104,7 +104,7 @@ class Circle(Shape):
 
     def generate(self, vertices=True, color=True):
         if color:
-            self.color = generate_color(self.mode, self.transparency)
+            self.color = generate_carp_color(self.mode, self.transparency)
         if vertices:
             """
             self.vertices = []  # To handle mutation.
@@ -136,7 +136,7 @@ class Polygon(Shape):
 
     def generate(self, vertices=True, color=True):
         if color:
-            self.color = generate_color(self.mode, self.transparency)
+            self.color = generate_carp_color(self.mode, self.transparency)
         if vertices:
             self.vertices = []  # To handle mutation.
             curr_point = generate_point(IMAGE_WIDTH - POLY_DIAMETER, IMAGE_HEIGHT - POLY_DIAMETER)
