@@ -353,6 +353,13 @@ def generate_color(mode, transparency):
             color = color + [255]
         return color
 
+def generate_carp_color(mode, transparency):
+    black = [0, 0, 0]
+    white = [255, 255, 255]
+    hiiro = [28, 28, 158]
+    color_list = [black, white, hiiro]
+    return color_list[np.random.randint(len(color_list))]
+
 
 def generate_point(x_max, y_max):  # Include offset.
     x, y = randrange(0, x_max + 1), randrange(0, y_max + 1)
