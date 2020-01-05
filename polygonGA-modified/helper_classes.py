@@ -350,7 +350,8 @@ class Population:
     def generate_crossover_children(self, parent_1, parent_2):  # Single Point Crossover
         crossover_point = randrange(1, NUMBER_OF_UROKOS - 1)
         # crossover_point = randrange(1, NUMBER_OF_POLYGONS - 1)
-        child_1, child_2 = Genotype(), Genotype()
+        child_1, child_2 = Urokotype(), Urokotype()
+        # child_1, child_2 = Genotype(), Genotype()
         f = lambda par, child, i: child.shapes.append(deepcopy(par.shapes[i]))
         for i in range(crossover_point):
             f(parent_1, child_1, i)
