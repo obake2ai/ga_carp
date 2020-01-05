@@ -1,0 +1,2 @@
+model_checkpoint_path: "/root/Share/GeneticDraw/TensorFlow-MNIST-modified/models/ori"
+all_model_checkpoint_paths: "/root/Share/GeneticDraw/TensorFlow-MNIST-modified/models/ori"

@@ -1,0 +1,2 @@
+model_checkpoint_path: "/root/Share/GeneticDraw/TensorFlow-MNIST-modified/models/has-unknown/mnist-cnn"
+all_model_checkpoint_paths: "/root/Share/GeneticDraw/TensorFlow-MNIST-modified/models/has-unknown/mnist-cnn"
