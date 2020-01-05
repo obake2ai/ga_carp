@@ -407,7 +407,7 @@ def generate_uroko_color():
     return color_list[np.random.randint(len(color_list))]
 
 def generate_uroko_point():
-    return np.asarray([np.random.randint(UROKO_NUM_Y), np.random.randint(len(UROKO_NUM_X))])
+    return np.asarray([np.random.randint(UROKO_NUM_Y), np.random.randint(UROKO_NUM_X)])
 
 
 def generate_point(x_max, y_max):  # Include offset.
