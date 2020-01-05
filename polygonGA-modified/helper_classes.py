@@ -174,8 +174,10 @@ class Uroko(Shape):
     def init_points(self):
         # TODO: penalty for large circles
         # point for circle
-        a = int(IMAGE_WIDTH / UROKO_NUM_X)
-        b = int(IMAGE_HEIGHT / UROKO_NUM_Y)
+        a = randrange(1, int(POLY_DIAMETER / 2))
+        b = randrange(1, int(POLY_DIAMETER / 2))
+        # a = int(IMAGE_WIDTH / UROKO_NUM_X)
+        # b = int(IMAGE_HEIGHT / UROKO_NUM_Y)
         y, x = generate_uroko_point() + 0.5
         return [(x - a, y - b), (x + a, y + b)]
 
