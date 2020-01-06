@@ -1,153 +1,153 @@
-generation: 00000, time: 1.3985214233398438, fitness: [20.724, 20.977, 21.0, 21.009, 21.356, 21.342, 21.16, 21.388, 21.016, 21.251]
+generation: 00000, time: 1.4613652229309082, fitness: [21.899, 21.93, 22.004, 22.06, 22.343, 22.551, 22.327, 22.29, 22.144, 22.542]
 generations since last update 0
 
-generation: 00010, time: 4.794087886810303, fitness: [19.236, 19.417, 19.871, 20.007, 20.41, 20.44, 20.756, 20.612, 20.635, 21.248]
-generations since last update 2
-
-generation: 00020, time: 8.162310600280762, fitness: [18.087, 18.614, 18.865, 19.048, 20.125, 19.52, 21.15, 19.058, 19.12, 21.099]
-generations since last update 0
-
-generation: 00030, time: 11.521236658096313, fitness: [14.472, 14.477, 14.731, 15.495, 15.988, 18.324, 19.633, 16.63, 19.296, 18.24]
-generations since last update 0
-
-generation: 00040, time: 14.861120700836182, fitness: [12.89, 14.461, 14.5, 14.883, 17.218, 15.168, 14.983, 20.067, 20.198, 18.642]
-generations since last update 7
-
-generation: 00050, time: 18.18950891494751, fitness: [10.464, 11.818, 12.108, 12.115, 17.164, 14.155, 13.686, 16.114, 13.808, 12.557]
-generations since last update 2
-
-generation: 00060, time: 21.5626859664917, fitness: [7.504, 9.092, 9.468, 9.73, 17.304, 13.752, 14.661, 19.43, 13.817, 16.225]
-generations since last update 0
-
-generation: 00070, time: 24.91834568977356, fitness: [7.248, 7.727, 9.609, 9.869, 9.907, 12.052, 14.092, 14.727, 14.944, 14.508]
-generations since last update 7
-
-generation: 00080, time: 28.320178985595703, fitness: [6.886, 7.524, 7.688, 8.67, 14.99, 10.509, 11.358, 14.259, 10.104, 14.716]
-generations since last update 3
-
-generation: 00090, time: 31.702341079711914, fitness: [6.136, 7.178, 8.512, 8.733, 15.462, 10.231, 10.968, 9.198, 17.448, 16.169]
-generations since last update 4
-
-generation: 00100, time: 35.12230920791626, fitness: [4.886, 5.939, 6.242, 6.938, 17.451, 15.655, 8.089, 13.483, 7.254, 16.621]
+generation: 00010, time: 5.600185394287109, fitness: [20.904, 20.917, 20.983, 21.175, 21.196, 22.046, 21.575, 21.674, 21.238, 22.076]
 generations since last update 1
 
-generation: 00110, time: 38.587098598480225, fitness: [3.796, 3.991, 4.438, 4.483, 10.849, 8.764, 7.78, 6.502, 6.248, 9.424]
+generation: 00020, time: 9.689494609832764, fitness: [16.6, 17.305, 17.66, 17.869, 21.505, 21.271, 21.96, 21.141, 20.911, 19.188]
 generations since last update 0
 
-generation: 00120, time: 41.968371629714966, fitness: [3.513, 4.219, 5.441, 5.78, 9.38, 6.347, 10.146, 5.883, 11.069, 10.743]
-generations since last update 2
-
-generation: 00130, time: 45.33559799194336, fitness: [3.513, 4.219, 5.441, 5.78, 9.38, 6.347, 10.146, 5.883, 11.069, 10.743]
-generations since last update 12
-
-generation: 00140, time: 48.70066499710083, fitness: [3.239, 3.839, 4.944, 5.905, 9.337, 6.902, 17.252, 9.202, 7.039, 7.854]
-generations since last update 3
-
-generation: 00150, time: 52.12647581100464, fitness: [2.81, 3.406, 3.71, 3.843, 12.849, 10.611, 7.761, 4.023, 16.825, 7.393]
+generation: 00030, time: 13.783605575561523, fitness: [14.658, 15.003, 15.281, 15.72, 18.538, 16.581, 16.272, 15.945, 20.312, 18.681]
 generations since last update 0
 
-generation: 00160, time: 55.53977370262146, fitness: [2.81, 3.406, 3.71, 3.843, 12.849, 10.611, 7.761, 4.023, 16.825, 7.393]
-generations since last update 10
+generation: 00040, time: 17.899527311325073, fitness: [11.552, 11.603, 11.787, 11.922, 13.471, 16.31, 15.205, 18.641, 12.418, 13.195]
+generations since last update 0
 
-generation: 00170, time: 58.8985710144043, fitness: [2.185, 2.532, 3.121, 3.789, 11.97, 5.196, 6.727, 14.766, 9.658, 3.906]
-generations since last update 2
+generation: 00050, time: 22.052139043807983, fitness: [6.177, 7.742, 9.973, 10.111, 13.455, 20.062, 14.171, 15.357, 15.687, 19.312]
+generations since last update 1
 
-generation: 00180, time: 62.30357241630554, fitness: [2.039, 2.212, 3.035, 3.096, 3.248, 4.969, 5.947, 7.249, 17.464, 4.081]
-generations since last update 5
-
-generation: 00190, time: 65.64534735679626, fitness: [1.873, 2.251, 2.303, 2.389, 4.829, 6.99, 7.131, 8.677, 13.594, 5.088]
-generations since last update 5
-
-generation: 00200, time: 69.04059028625488, fitness: [1.873, 2.251, 2.303, 2.389, 4.829, 6.99, 7.131, 8.677, 13.594, 5.088]
-generations since last update 15
-
-generation: 00210, time: 72.39007902145386, fitness: [1.765, 1.877, 2.162, 2.225, 9.38, 10.772, 5.484, 12.917, 2.911, 2.4]
-generations since last update 9
-
-generation: 00220, time: 75.75024938583374, fitness: [1.672, 1.826, 2.33, 2.338, 9.904, 7.981, 4.846, 2.379, 8.018, 2.987]
-generations since last update 5
-
-generation: 00230, time: 79.14169645309448, fitness: [1.641, 1.907, 1.959, 2.318, 8.28, 3.996, 8.661, 6.946, 2.567, 5.155]
+generation: 00060, time: 26.1289005279541, fitness: [5.405, 6.981, 7.594, 8.128, 21.468, 14.224, 10.525, 21.658, 20.296, 11.075]
 generations since last update 7
 
-generation: 00240, time: 82.48240184783936, fitness: [1.625, 1.791, 1.809, 1.928, 5.369, 9.396, 2.121, 2.488, 5.669, 4.992]
+generation: 00070, time: 30.20986557006836, fitness: [3.287, 3.737, 4.401, 5.046, 5.62, 5.21, 5.461, 9.415, 7.643, 8.775]
+generations since last update 1
+
+generation: 00080, time: 34.37467169761658, fitness: [3.186, 3.427, 3.831, 4.4, 6.689, 6.339, 4.964, 5.365, 5.803, 7.898]
+generations since last update 0
+
+generation: 00090, time: 38.53920578956604, fitness: [2.466, 3.67, 3.911, 4.11, 4.262, 8.744, 5.023, 13.02, 4.21, 15.73]
+generations since last update 0
+
+generation: 00100, time: 42.630553245544434, fitness: [1.967, 2.086, 3.134, 3.263, 13.794, 9.156, 6.328, 6.154, 7.302, 4.549]
+generations since last update 1
+
+generation: 00110, time: 46.78285312652588, fitness: [1.838, 1.99, 2.518, 2.972, 15.095, 3.485, 14.75, 3.79, 11.232, 15.139]
 generations since last update 5
 
-generation: 00250, time: 85.83105421066284, fitness: [1.592, 1.646, 1.766, 1.905, 2.177, 2.739, 8.041, 10.212, 2.305, 4.446]
+generation: 00120, time: 50.87019634246826, fitness: [1.803, 1.96, 2.199, 2.235, 3.176, 2.757, 6.905, 18.513, 5.412, 2.819]
 generations since last update 4
 
-generation: 00260, time: 89.2098376750946, fitness: [1.583, 1.689, 1.733, 1.8, 1.8, 9.53, 1.86, 14.365, 10.334, 3.479]
-generations since last update 3
-
-generation: 00270, time: 92.58463764190674, fitness: [1.581, 1.696, 1.781, 1.935, 2.922, 12.797, 1.995, 2.246, 2.23, 17.107]
-generations since last update 9
-
-generation: 00280, time: 95.99091458320618, fitness: [1.57, 1.701, 1.748, 1.796, 12.328, 3.014, 2.507, 11.83, 2.294, 2.604]
+generation: 00130, time: 55.02268576622009, fitness: [1.802, 1.872, 2.123, 2.207, 2.7, 6.18, 8.193, 3.858, 3.224, 4.718]
 generations since last update 7
 
-generation: 00290, time: 99.38357138633728, fitness: [1.569, 1.628, 1.68, 1.686, 2.443, 2.032, 2.507, 10.23, 13.583, 2.192]
-generations since last update 2
+generation: 00140, time: 59.097007036209106, fitness: [1.76, 2.272, 2.385, 2.512, 3.925, 13.619, 4.022, 3.345, 5.026, 14.938]
+generations since last update 5
 
-generation: 00300, time: 102.7762885093689, fitness: [1.566, 1.632, 1.703, 1.721, 1.802, 11.094, 14.017, 1.786, 9.611, 2.086]
-generations since last update 2
+generation: 00150, time: 63.22454309463501, fitness: [1.753, 1.834, 2.334, 2.378, 13.585, 20.7, 2.383, 3.51, 11.198, 4.441]
+generations since last update 5
 
-generation: 00310, time: 106.17078804969788, fitness: [1.556, 1.598, 1.742, 1.797, 11.615, 2.55, 1.921, 1.927, 11.551, 1.881]
-generations since last update 9
-
-generation: 00320, time: 109.4942479133606, fitness: [1.54, 1.594, 1.61, 1.678, 2.055, 1.802, 2.014, 2.469, 1.965, 2.025]
-generations since last update 2
-
-generation: 00330, time: 112.87459754943848, fitness: [1.54, 1.594, 1.61, 1.678, 2.055, 1.802, 2.014, 2.469, 1.965, 2.025]
-generations since last update 12
-
-generation: 00340, time: 116.31482124328613, fitness: [1.54, 1.594, 1.61, 1.678, 2.055, 1.802, 2.014, 2.469, 1.965, 2.025]
-generations since last update 22
-
-generation: 00350, time: 119.71404123306274, fitness: [1.54, 1.594, 1.61, 1.678, 2.055, 1.802, 2.014, 2.469, 1.965, 2.025]
-generations since last update 32
-
-generation: 00360, time: 123.07255411148071, fitness: [1.54, 1.594, 1.61, 1.678, 2.055, 1.802, 2.014, 2.469, 1.965, 2.025]
-generations since last update 42
-
-generation: 00370, time: 126.46928310394287, fitness: [1.54, 1.594, 1.61, 1.678, 2.055, 1.802, 2.014, 2.469, 1.965, 2.025]
-generations since last update 52
-
-generation: 00380, time: 129.83751916885376, fitness: [1.535, 1.616, 1.655, 1.68, 3.246, 2.008, 1.742, 2.826, 2.153, 1.78]
-generations since last update 6
-
-generation: 00390, time: 133.23319673538208, fitness: [1.524, 1.565, 1.647, 1.653, 3.609, 3.46, 2.4, 2.269, 3.868, 2.031]
-generations since last update 2
-
-generation: 00400, time: 136.6296262741089, fitness: [1.524, 1.565, 1.647, 1.653, 3.609, 3.46, 2.4, 2.269, 3.868, 2.031]
-generations since last update 12
-
-generation: 00410, time: 140.01463389396667, fitness: [1.524, 1.565, 1.62, 1.66, 3.521, 2.393, 2.068, 2.44, 2.131, 1.673]
-generations since last update 3
-
-generation: 00420, time: 143.38178706169128, fitness: [1.524, 1.565, 1.62, 1.66, 3.521, 2.393, 2.068, 2.44, 2.131, 1.673]
-generations since last update 13
-
-generation: 00430, time: 146.74851965904236, fitness: [1.518, 1.595, 1.63, 1.647, 6.642, 1.876, 1.875, 2.797, 3.116, 1.839]
+generation: 00160, time: 67.32155179977417, fitness: [1.702, 1.913, 2.45, 2.475, 4.623, 4.521, 17.307, 3.49, 4.025, 21.211]
 generations since last update 0
 
-generation: 00440, time: 150.1929633617401, fitness: [1.515, 1.572, 1.627, 1.643, 2.545, 4.839, 1.724, 7.954, 1.833, 3.116]
+generation: 00170, time: 71.36374568939209, fitness: [1.682, 1.733, 2.042, 2.177, 6.564, 4.663, 2.328, 21.211, 18.004, 18.706]
+generations since last update 2
+
+generation: 00180, time: 75.48539924621582, fitness: [1.675, 1.756, 2.032, 2.47, 5.949, 5.646, 2.824, 6.672, 4.058, 21.943]
+generations since last update 8
+
+generation: 00190, time: 79.68542718887329, fitness: [1.647, 1.808, 1.921, 2.051, 19.369, 2.206, 2.099, 9.719, 2.797, 2.498]
 generations since last update 0
 
-generation: 00450, time: 153.61681389808655, fitness: [1.515, 1.572, 1.627, 1.643, 2.545, 4.839, 1.724, 7.954, 1.833, 3.116]
-generations since last update 10
+generation: 00200, time: 83.76513004302979, fitness: [1.566, 1.605, 1.78, 1.824, 2.534, 5.953, 3.107, 2.007, 2.386, 3.47]
+generations since last update 4
 
-generation: 00460, time: 157.0506865978241, fitness: [1.513, 1.576, 1.629, 1.663, 2.028, 6.66, 2.852, 16.376, 2.667, 5.804]
+generation: 00210, time: 87.81151103973389, fitness: [1.561, 1.585, 1.818, 2.015, 3.304, 3.29, 2.111, 2.987, 2.501, 4.358]
+generations since last update 5
+
+generation: 00220, time: 91.87994837760925, fitness: [1.551, 1.596, 1.625, 1.638, 5.258, 2.852, 8.959, 1.758, 2.736, 3.944]
+generations since last update 2
+
+generation: 00230, time: 95.94137573242188, fitness: [1.551, 1.603, 1.642, 1.645, 2.95, 12.399, 1.647, 1.665, 8.148, 1.792]
 generations since last update 7
 
-generation: 00470, time: 160.4222297668457, fitness: [1.513, 1.576, 1.629, 1.663, 2.028, 6.66, 2.852, 16.376, 2.667, 5.804]
+generation: 00240, time: 100.13253045082092, fitness: [1.549, 1.562, 1.66, 1.688, 1.878, 1.803, 11.186, 2.24, 6.633, 4.844]
+generations since last update 5
+
+generation: 00250, time: 104.27791500091553, fitness: [1.549, 1.551, 1.57, 1.584, 1.728, 4.401, 1.7, 5.005, 2.32, 1.786]
+generations since last update 5
+
+generation: 00260, time: 108.37722492218018, fitness: [1.532, 1.534, 1.621, 1.637, 1.787, 1.763, 1.81, 2.345, 3.058, 2.564]
+generations since last update 0
+
+generation: 00270, time: 112.51841473579407, fitness: [1.532, 1.688, 1.743, 1.774, 1.888, 4.392, 1.933, 2.627, 1.809, 2.649]
+generations since last update 9
+
+generation: 00280, time: 116.55844378471375, fitness: [1.521, 1.643, 1.726, 1.744, 1.855, 2.638, 2.244, 6.338, 1.801, 2.387]
+generations since last update 2
+
+generation: 00290, time: 120.66956806182861, fitness: [1.519, 1.629, 1.69, 1.786, 3.925, 8.353, 4.359, 2.575, 1.806, 16.958]
+generations since last update 8
+
+generation: 00300, time: 124.80241537094116, fitness: [1.517, 1.593, 1.61, 1.613, 9.733, 9.513, 1.846, 1.648, 3.159, 14.367]
+generations since last update 5
+
+generation: 00310, time: 128.99485754966736, fitness: [1.517, 1.593, 1.61, 1.613, 9.733, 9.513, 1.846, 1.648, 3.159, 14.367]
+generations since last update 15
+
+generation: 00320, time: 133.08045721054077, fitness: [1.515, 1.598, 1.606, 1.651, 8.444, 2.603, 10.951, 1.837, 10.177, 13.42]
+generations since last update 7
+
+generation: 00330, time: 137.13892269134521, fitness: [1.515, 1.598, 1.606, 1.651, 8.444, 2.603, 10.951, 1.837, 10.177, 13.42]
 generations since last update 17
 
-generation: 00480, time: 163.8334996700287, fitness: [1.509, 1.518, 1.615, 1.628, 1.777, 16.31, 1.764, 2.037, 9.925, 14.673]
-generations since last update 6
+generation: 00340, time: 141.26871061325073, fitness: [1.515, 1.598, 1.606, 1.651, 8.444, 2.603, 10.951, 1.837, 10.177, 13.42]
+generations since last update 27
 
-generation: 00490, time: 167.2442705631256, fitness: [1.499, 1.627, 1.655, 1.663, 15.001, 1.784, 1.684, 1.85, 20.897, 18.36]
+generation: 00350, time: 145.34964871406555, fitness: [1.513, 1.531, 1.608, 1.61, 17.145, 14.354, 17.209, 1.802, 2.298, 1.645]
 generations since last update 2
 
-generation: 00500, time: 170.70125460624695, fitness: [1.498, 1.599, 1.692, 1.799, 1.851, 2.007, 1.838, 2.217, 1.818, 18.545]
-generations since last update 3
+generation: 00360, time: 149.39806747436523, fitness: [1.513, 1.523, 1.529, 1.574, 13.085, 2.161, 6.389, 19.544, 12.715, 1.688]
+generations since last update 4
+
+generation: 00370, time: 153.57401490211487, fitness: [1.513, 1.545, 1.555, 1.56, 1.675, 9.693, 6.818, 12.228, 4.649, 12.572]
+generations since last update 1
+
+generation: 00380, time: 157.64811611175537, fitness: [1.506, 1.55, 1.569, 1.593, 2.565, 1.975, 2.288, 13.456, 1.838, 6.778]
+generations since last update 2
+
+generation: 00390, time: 161.758131980896, fitness: [1.5, 1.571, 1.617, 1.639, 1.642, 2.448, 2.258, 2.554, 9.621, 2.327]
+generations since last update 2
+
+generation: 00400, time: 165.8611981868744, fitness: [1.494, 1.608, 1.615, 1.636, 1.708, 3.781, 12.813, 1.902, 2.279, 16.018]
+generations since last update 0
+
+generation: 00410, time: 169.93364644050598, fitness: [1.494, 1.608, 1.615, 1.636, 1.708, 3.781, 12.813, 1.902, 2.279, 16.018]
+generations since last update 10
+
+generation: 00420, time: 174.0379135608673, fitness: [1.48, 1.531, 1.594, 1.624, 4.157, 3.504, 1.754, 6.442, 1.733, 18.659]
+generations since last update 1
+
+generation: 00430, time: 178.2066740989685, fitness: [1.48, 1.531, 1.594, 1.624, 4.157, 3.504, 1.754, 6.442, 1.733, 18.659]
+generations since last update 11
+
+generation: 00440, time: 182.4345943927765, fitness: [1.477, 1.505, 1.511, 1.511, 1.552, 4.76, 2.087, 1.94, 1.601, 4.583]
+generations since last update 0
+
+generation: 00450, time: 186.62010741233826, fitness: [1.477, 1.505, 1.511, 1.511, 1.552, 4.76, 2.087, 1.94, 1.601, 4.583]
+generations since last update 10
+
+generation: 00460, time: 190.65231823921204, fitness: [1.473, 1.507, 1.529, 1.53, 12.38, 11.341, 1.935, 1.642, 1.565, 1.546]
+generations since last update 1
+
+generation: 00470, time: 194.67657327651978, fitness: [1.472, 1.474, 1.476, 1.492, 2.401, 14.308, 2.121, 10.868, 1.563, 1.795]
+generations since last update 1
+
+generation: 00480, time: 198.79460048675537, fitness: [1.47, 1.473, 1.485, 1.5, 1.645, 1.508, 1.892, 4.012, 1.783, 17.434]
+generations since last update 5
+
+generation: 00490, time: 202.89621949195862, fitness: [1.468, 1.484, 1.497, 1.499, 16.834, 1.61, 1.61, 1.536, 2.378, 2.319]
+generations since last update 6
+
+generation: 00500, time: 207.01447200775146, fitness: [1.468, 1.484, 1.497, 1.499, 16.834, 1.61, 1.61, 1.536, 2.378, 2.319]
+generations since last update 16
 
